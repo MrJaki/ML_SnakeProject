@@ -1,0 +1,14 @@
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\bin\Debug\net8.0\Snake.exe
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\bin\Debug\net8.0\Snake.deps.json
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\bin\Debug\net8.0\Snake.runtimeconfig.json
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\bin\Debug\net8.0\Snake.dll
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\bin\Debug\net8.0\Snake.pdb
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\Snake.AssemblyInfoInputs.cache
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\Snake.AssemblyInfo.cs
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\Snake.dll
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\refint\Snake.dll
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\Snake.pdb
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\Snake.genruntimeconfig.cache
+C:\Users\Jakob Bornsek\source\repos\Snake\Snake\obj\Debug\net8.0\ref\Snake.dll
