@@ -1,8 +1,8 @@
-# 🐍 ML_SnakeProject
+#  ML_SnakeProject
 
 A machine learning project where a neural network learns to play the classic Snake game through evolutionary algorithms.  The snake learns to navigate towards apples using a genetic algorithm approach with mutation-based learning.
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [How It Works](#how-it-works)
 - [Features](#features)
@@ -14,11 +14,11 @@ A machine learning project where a neural network learns to play the classic Sna
 - [Configuration](#configuration)
 - [Project Structure](#project-structure)
 
-## 🎯 Overview
+##  Overview
 
 This project demonstrates how artificial intelligence can learn to play games through trial and error. A population of snakes is simulated simultaneously, with each snake controlled by its own neural network. Through evolutionary selection and mutation, the snakes gradually improve their ability to find and collect apples while avoiding walls. 
 
-## 🧠 How It Works
+##  How It Works
 
 The system uses: 
 - **Neural Networks**: Each snake has a neural network that decides its movement based on environmental inputs
@@ -26,7 +26,7 @@ The system uses:
 - **Mutation**: Small random changes to the weights help explore new strategies
 - **Fitness Function**: Snakes are rewarded for collecting apples and punished for inefficiency
 
-## ✨ Features
+##  Features
 
 - **Parallel Training**:  Simulates 50 snakes simultaneously for efficient learning
 - **Real-time Visualization**: Watch the best snake play after training
@@ -34,13 +34,13 @@ The system uses:
 - **Configurable Parameters**:  Easily adjust population size, mutation rate, and training cycles
 - **Fitness Tracking**: Monitor average and best fitness scores across training cycles
 
-## 🔧 Requirements
+##  Requirements
 
 - .NET 6.0 or higher
 - Windows/Linux/macOS with terminal support
 - Visual Studio 2022 or Visual Studio Code (optional, for development)
 
-## 📥 Installation
+##  Installation
 
 1. **Clone the repository**
    ```bash
@@ -58,7 +58,7 @@ The system uses:
    dotnet build
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### Running the Project
 
@@ -94,7 +94,7 @@ Before running, update the file paths in `Program.cs`:
   StreamWriter writer = new StreamWriter(@"C:\path\to\save\model.txt");
   ```
 
-## 🏗️ Neural Network Architecture
+##  Neural Network Architecture
 
 ### Input Layer (16 neurons)
 The snake receives 16 inputs representing its environment: 
@@ -133,7 +133,7 @@ The snake receives 16 inputs representing its environment:
 - The direction with the highest activation is chosen
 - Prevents 180-degree turns (moving directly backward)
 
-## 🎓 Training Process
+##  Training Process
 
 ### Population-Based Learning
 1. **Initialization**: 50 snakes spawn with random neural network weights
@@ -152,7 +152,7 @@ The snake receives 16 inputs representing its environment:
 Fitness = (Apples Collected × 100) + Steps Survived - Penalties
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 Key parameters you can modify in `Program.cs`:
 
@@ -165,7 +165,7 @@ Key parameters you can modify in `Program.cs`:
 | Grid width | 71, 286 | 26 | Width of game board |
 | Grid height | 72, 287 | 16 | Height of game board |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ML_SnakeProject/
@@ -180,7 +180,7 @@ ML_SnakeProject/
         └── obj/                 # Intermediate build files
 ```
 
-## 🎮 Game Display
+##  Game Display
 
 After training, the visualization shows:
 - `O` = Snake head position
@@ -188,7 +188,7 @@ After training, the visualization shows:
 - `.` = Empty space
 - Score counter at the bottom
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
@@ -196,16 +196,16 @@ Contributions are welcome! Feel free to:
 - Submit pull requests
 - Improve documentation
 
-## 📝 License
+##  License
 
 This project is open source and available for educational purposes.
 
-## 👤 Author
+##  Author
 
 **MrJaki**
 - GitHub: [@MrJaki](https://github.com/MrJaki)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by classical genetic algorithms and neuroevolution
 - Built with C# and .NET
